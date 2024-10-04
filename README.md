@@ -4,7 +4,7 @@ Docker Learning Resources repository! This collection of files (All placed in th
 
 ## Contents
 
-1. **DockerandStandaloneSpringbootExample**: Start here to explore practical examples and instructions on how to run them. This hands-on approach will solidify your understanding of Docker concepts, as the application is straightforward and very simple, allowing you to focus on how Docker works.
+1. **DockerandStandaloneSpringbootExample**: Start here to implement a practical example and get the detailed instructions on how to run them. This hands-on approach will solidify your understanding of Docker concepts, as the application is straightforward and very simple, allowing you to focus on how Docker works.
    
 2. **SpeakinDocker.md**: Once you’ve worked through the code, check out this file for an introduction to Docker terminology and concepts. Understanding the language of Docker is key to mastering its usage.
 
