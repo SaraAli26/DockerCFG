@@ -1,4 +1,4 @@
-# docker and springexample
+# Docker and Stand alone Springboot Example
 A short tutorial for how to containerize a stand alone spring boot application 
 
 1. Ensure that you have the application downloaded from this repositroy. 
