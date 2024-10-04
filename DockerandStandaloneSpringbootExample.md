@@ -37,8 +37,6 @@ You can use the terminal of your PC, or simply the one integrated in intellij, a
 ![Image is built](https://i.ibb.co/yp9ydCD/Screenshot-2024-10-04-210624.png)
 
 7. Make a continer to run the image in this conatiner, by running the command ``` docker run -d -p 8080:8080 docker-and-spring  ``` in the terminal.
-   
-  ## Docker Run Command Explanation
 
 - **docker run**: This part of the command tells Docker to create and start a new container.
 
