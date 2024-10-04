@@ -1,5 +1,6 @@
 # Docker and Stand alone Springboot Example
-A short tutorial for how to containerize a stand alone spring boot application 
+
+A short practical tutorial for how to containerize a stand alone spring boot application 
 
 1. Ensure that you have the application downloaded from this repositroy. 
 2. Package your Spring Boot application into a JAR file, which is the executable version of your project. To do this, navigate to the Maven tool window, then go to Lifecycle → clean → Package. This process will generate a .jar file, which can be found in the newly created target folder.
@@ -37,15 +38,18 @@ You can use the terminal of your PC, or simply the one integrated in intellij, a
 
 7. Make a continer to run the image in this conatiner, by running the command ``` docker run -d -p 8080:8080 docker-and-spring  ``` in the terminal.
    
-  docker run: This part of the command tells Docker to create and start a new container.
+  ## Docker Run Command Explanation
 
-  -d: This flag runs the container in detached mode, meaning the container will run in the background without blocking the terminal, so you can continue using your terminal while the application runs.
+- **docker run**: This part of the command tells Docker to create and start a new container.
 
-  -p 8080:8080: This maps port 8080 on your local machine to port 8080 inside the Docker container. Essentially, this means that if you access http://localhost:8080 on your machine, it will be forwarded to the     container’s port 8080, where your Spring Boot application is running.
+- **-d**: This flag runs the container in detached mode, meaning the container will run in the background without blocking the terminal, so you can continue using your terminal while the application runs.
 
-  docker-and-spring: This is the name of the Docker image for your Spring Boot application. Docker will use this image to create the container.
+- **-p 8080:8080**: This maps port 8080 on your local machine to port 8080 inside the Docker container. Essentially, this means that if you access `http://localhost:8080` on your machine, it will be forwarded to the container’s port 8080, where your Spring Boot application is running.
 
-  After excuting this command, you the container be uup and running and you can access the end point thorugh the container.
+- **docker-and-spring**: This is the name of the Docker image for your Spring Boot application. Docker will use this image to create the container.
+
+After executing this command, the container will be up and running, and you can access the endpoints through the container.
+
   
 ![Image is built](https://i.ibb.co/JFJYyTm/Screenshot-2024-10-04-211007.png)
 
