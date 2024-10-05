@@ -1,6 +1,6 @@
 # Docker Learning Resources
 
-Docker Learning Resources repository! This collection of files (All placed in the root) is designed to help you understand the basics of docker.
+Docker Learning Resources repository! This collection of files (All placed in the Instructions folder) is designed to help you understand the basics of docker.
 
 ## Contents
 
