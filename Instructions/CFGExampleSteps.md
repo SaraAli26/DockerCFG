@@ -3,7 +3,7 @@
 
 ## Overview
 This example demonstrates how to connect a **Library Service project** to a **MySQL database** using Docker. The Library Service will send data to the database via endpoints.
-[Watch the Tutorial](https://drive.google.com/file/d/1299-M1AEl4RZ3E3tJww_ybOxjxRAOT2k/view?usp=sharing)
+[Watch the Tutorial](https://drive.google.com/file/d/1QWWbGJFSyrjY1r7CHlaIIAVrYj9BA9CU/view?usp=sharing)
 
 ### Example Flow
 The process consists of three parts:
