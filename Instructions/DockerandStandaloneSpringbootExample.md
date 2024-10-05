@@ -1,6 +1,6 @@
 # Docker and Stand alone Springboot Example
 
-A short practical tutorial for how to containerize a stand alone spring boot application [Watch the Tutorial](https://drive.google.com/file/d/1299-M1AEl4RZ3E3tJww_ybOxjxRAOT2k/view?usp=sharing)
+A short practical tutorial for how to containerize a stand alone spring boot application [Watch the Tutorial](https://drive.google.com/file/d/1idZCWkp1-mmeznFL8ZeXjQmXeB9RR-H3/view?usp=sharing)
 
 1. Ensure that you have the application downloaded from this repositroy. 
 2. Package your Spring Boot application into a JAR file, which is the executable version of your project. To do this, navigate to the Maven tool window, then go to Lifecycle → clean → Package. This process will generate a .jar file, which can be found in the newly created target folder.
