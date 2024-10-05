@@ -3,11 +3,13 @@
 
 ## Overview
 This example demonstrates how to connect a **Library Service project** to a **MySQL database** using Docker. The Library Service will send data to the database via endpoints.
+[Watch the Tutorial]((https://drive.google.com/file/d/1299-M1AEl4RZ3E3tJww_ybOxjxRAOT2k/view?usp=sharing)
 
 ### Example Flow
 The process consists of three parts:
 1. **Creating a MySQL Image**  
-2. **Creating an Image for the Library Service Application**  
+2. **Creating an Image for the Library Service Application** 
+[Download Library Service application]((https://drive.google.com/file/d/1299-M1AEl4RZ3E3tJww_ybOxjxRAOT2k/view?usp=sharing)
 3. **Running the `docker-compose.yml` file** to allow the two images to communicate.
 
 ## Steps to Implement the Example
